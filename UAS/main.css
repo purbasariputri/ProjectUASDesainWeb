@@ -1,0 +1,131 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #fff;
+}
+.navbar {
+	background: #333333;
+}
+.navbar-nav {
+	margin-left: auto;
+	margin-right: 40px;
+}
+.nav-link,
+.navbar-brand {
+	font-family: montserrat;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+.nav-link {
+	margin-right: 1em !important;
+}
+.nav-link:hover {
+	color: #999999;
+}
+.navbar-collapse {
+	justify-content: flex-end;
+}
+.header {
+	background-image: url('images/jeep.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.description {
+	left: 20%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: left;
+	margin-left: 2%;
+	margin-right: 50%;
+}
+.description h1 {
+	color: #333333;
+	font-family: montserrat;
+	font-weight: bold;
+}
+.description p {
+	color: #333333;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+.description button {
+	border: 1px solid #333333;
+	background: #333333;
+	border-radius: 0;
+	color: #fff;
+}
+.description button:hover {
+	border: 1px solid #555555;
+	background: #555555;
+	color: #fff;
+}
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+.feature-title {
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.name {
+	color: #333333;
+}
+.name:hover {
+	color: #555555;
+}
+.price {
+	color: #333333;
+}
+.price:hover {
+	color: #555555;
+}
+.page-footer {
+	background-color: #222;
+	color: #ccc;
+	padding: 60px 0 30px;
+}
+.footer-copyright {
+	color: #666;
+	padding: 40px 0;
+}
+.nav-item {
+	color: #fff;
+}
+.nav-link-2 {
+	color: #ccc;
+	padding: 10px;
+}
+.nav li{
+	padding: 5px 0;
+}
+.nav-link-2:hover {
+	color: #999999;
+}
+@media (max-width: 768px) {
+	.description {
+		top: 30%;
+		transform: none;
+		text-align: center;
+		left: 0;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	.header {
+		background: url(images/bg.jpg);
+	}
+	.description h1 {
+		font-size: 4em;
+	}
+	.description p {
+		font-size: 1.2rem;
+	}
+	.features {
+		margin: center;
+	}
+}
